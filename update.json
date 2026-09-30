@@ -1,17 +1,18 @@
+json
+
 {
-  "_说明": "把本文件放到任意可访问的地址（服务器、对象存储、局域网都行），然后在 App 的「设置 → 版本与更新」里填入该地址。url 字段必须指向 APK 的直链。versionCode 必须大于 App 当前版本才会显示为「可更新」。",
   "versions": [
     {
       "versionCode": 2,
-      "versionName": "1.1.0",
-      "url": "https://your-server.example.com/smsforwarder-1.1.0.apk",
-      "changelog": "1. 新增设置板块（权限检查 + 版本更新）\n2. 修复 xxx"
+      "versionName": "1.0.1-test",
+      "url": "https://cdn.jsdelivr.net/gh/1829374862/-@main/SmsForwarder-1.0.0-debug.apk",
+      "changelog": "测试条目：指向当前这个 APK，用来验证「检查更新 - 下载 - 安装」整条链路。安装后版本号仍显示 1.0.0。"
     },
     {
       "versionCode": 1,
       "versionName": "1.0.0",
-      "url": "https://your-server.example.com/smsforwarder-1.0.0.apk",
-      "changelog": "首个版本"
+      "url": "https://cdn.jsdelivr.net/gh/1829374862/-@main/SmsForwarder-1.0.0-debug.apk",
+      "changelog": "当前安装的版本"
     }
   ]
 }
